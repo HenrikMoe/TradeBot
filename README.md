@@ -16,14 +16,23 @@ AI Predicition Algo:
 
 + https://github.com/yazanobeidi/flow
 
+-- rsi and macd indicators: https://github.com/yazanobeidi/flow/blob/master/python/indicators.py
+
+- run simulation
+
 + https://github.com/crypto-code/Stock-Market-AI-GUI
 
 + https://github.com/PyPatel/Machine-Learning-and-AI-in-Trading/tree/master
 
-- https://github.com/PyPatel/Machine-Learning-and-AI-in-Trading/blob/master/Trading_MLP_TF.py
+- master TF file - https://github.com/PyPatel/Machine-Learning-and-AI-in-Trading/blob/master/Trading_MLP_TF.py
 
-Connect Alpaca to the prediction read in for all stock prices per 12h for forever for an asset
+col 2 and 5 high prices and low prices. 
+
+
+
+
+Connect Alpaca to the prediction read in for all stock prices per 12h for forever for an asset, verfiy csv format with the TF model.
 
 Algo returns prediction.
 
-We code some logic to buy and sell the stock given our protfolio value - some optimzition function that we can hard code. 
+We code some logic to buy and sell the stock given our protfolio value - some optimzition function that we can hard code. - or already included
