@@ -2,7 +2,11 @@
 
 Trading API - stock exchange clients
 
-Stripe for deposits and withdrawls 
++ Alpaca JAVA
+
+++ Alpaca Diagnosis 
+
+Stripe for deposits and withdrawls ?
 
 Roth IRA?
 
