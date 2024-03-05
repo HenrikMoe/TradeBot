@@ -2,7 +2,7 @@
 
 Trading API - stock exchange clients
 
-+ Alpaca JAVA
++ Alpaca JAVA - https://github.com/Petersoj/alpaca-java
 
 ++ Alpaca Diagnosis 
 
