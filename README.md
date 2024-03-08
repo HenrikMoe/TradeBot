@@ -28,6 +28,8 @@ AI Predicition Algo:
 
 col 2 and 5 high prices and low prices. 
 
+weee need this
+
 
 
 
