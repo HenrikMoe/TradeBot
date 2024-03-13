@@ -8,24 +8,33 @@ Chat3deriv.py
 startup:
 Navigate to the directory where you want to create the virtual environment
 ```linux
-# cd MachineLearning dir 
+# cd (project root) 
 ```
 Create a virtual environment (you can choose any name, here we use "venv")
+```linux
 python3 -m venv venv
+```
 
 Activate the virtual environment
+```linux
 source venv/bin/activate
+```
 
 Install required packages
+```linux
 pip install numpy TFANN matplotlib scikit-learn tensorflow
+```
 
 Make sure you are in the directory containing your script
+```linux
 cd (rn the csv and the py file are in Machine)
-
+```
 Run the script
+```linux
 python chat3deriv.py
+```
 
-manually add the csv file to the venv
+manually add the csv file to the venv if needed
 
 # Tech Agnositc Training Details
 
