@@ -153,10 +153,10 @@ A_scaled = scale(A)
 layers = [1, 32, 32, 1]
 
 # Create the custom SeqMLP instance
-seq_mlp = SeqMLP(input_size=2, hidden_size=[32, 32], output_size=1, actvFn='tanh', learnRate=0.001, maxItr=2000, tol=1e-2, verbose=False, reg=0.001)
+seq_mlp = SeqMLP(input_size=2, hidden_size=[32, 32], output_size=1, actvFn='tanh', learnRate=0.005, maxItr=2000, tol=1e-2, verbose=False, reg=0.001)
 
 # Length of the hold-out period
-nDays = 0
+nDays = 5
 n = len(A)
 
 # Learn the data
