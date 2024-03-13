@@ -36,6 +36,7 @@ Network Type:
 Characterstic N: 
 (continue to classify)
 n 32 by 32
+.001 learn rate
 
 Test Results:
 
@@ -58,7 +59,12 @@ then 69.8324 versus x
 
 ## Config 2 
 
+Network Type:
+Characterstic N: 
+(continue to classify)
+n 32 by 32
 trial @ 0.005 learn rate: 
+
 got 69,0288 versus 70,083
 from range 66230 bottom. -------- mid
 
