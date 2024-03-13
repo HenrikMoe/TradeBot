@@ -7,7 +7,8 @@ Chat3deriv.py
 
 startup:
 Navigate to the directory where you want to create the virtual environment
-cd MachineLearning dir 
+```linux
+# cd MachineLearning dir 
 
 Create a virtual environment (you can choose any name, here we use "venv")
 python3 -m venv venv
