@@ -1,7 +1,9 @@
 # TradeBot
 
 
-# PY TF Model Spin Up
+# Spin Up
+
+Boilerplate Numerical/Regressive Model:
 
 Chat3deriv.py
 
@@ -36,9 +38,7 @@ python chat3deriv.py
 
 manually add the csv file to the venv if needed
 
-# Tech Agnositc Training Details
-
-I'm making this a scientifc method for Jinsei.ai
+# Numerical Regressision Model
 
 ## Config 1 
 
