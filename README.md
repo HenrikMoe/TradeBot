@@ -1,11 +1,8 @@
-# TradeBot
+# TradeBot - Numerical Regressive Model Set + Implementation 
 
+## Set Env & Run Models
 
-# Spin Up
-
-Boilerplate Numerical/Regressive Model:
-
-Chat3deriv.py
+Boilerplate Numerical/Regressive Model: Chat3deriv.py
 
 startup:
 Navigate to the directory where you want to create the virtual environment
@@ -38,10 +35,9 @@ python chat3deriv.py
 
 manually add the csv file to the venv if needed
 
++ Add sourced method training configs
 
-Add sourced method training configs
-
-Add JAX training config and methods.
++ Add JAX training config and methods.
 
 # Unmethodized Configs
 
