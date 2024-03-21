@@ -38,7 +38,12 @@ python chat3deriv.py
 
 manually add the csv file to the venv if needed
 
-# Numerical Regressision Model
+
+Add sourced method training configs
+
+Add JAX training config and methods.
+
+# Unmethodized Configs
 
 ## Config 1 
 
