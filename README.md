@@ -92,21 +92,21 @@ then 69,47696 versus 72487.10156 ---- bad
 from 69210.07813
 
 
-# Tuning Overview Notes: 
+## Tuning Overview Notes: 
 
 Scaling/Normalization:
 Ensure that the scaling factors used for training are applied consistently during prediction. In a real-world scenario, you would save the scaling factors during training and use them for prediction. Here, I assumed that the range of scaling factors is similar for both training and prediction. It's essential to apply the same scaling to input data during both phases.
 python
 Copy code
-# Use the same scaling factors for both training and prediction
-# Note: In a real-world scenario, you would save the scaling factors during training and use them for prediction.
-# For simplicity, I'm assuming here that the range of the scaling factors is similar in both cases.
+### Use the same scaling factors for both training and prediction
+### Note: In a real-world scenario, you would save the scaling factors during training and use them for prediction.
+### For simplicity, I'm assuming here that the range of the scaling factors is similar in both cases.
 A_scaled = scale(A)
 Imputation for NaN values:
 You've used np.nan_to_num for handling NaN values, replacing them with the mean. Depending on your data, you might want to consider more sophisticated imputation techniques, such as using the mean or median of the column. However, this depends on the nature of your data and the impact of imputation on the model.
 python
 Copy code
-# Handle NaN values with more sophisticated imputation
+### Handle NaN values with more sophisticated imputation
 low_prices = np.nan_to_num(low_prices, nan=np.nanmean(low_prices))
 high_prices = np.nan_to_num(high_prices, nan=np.nanmean(high_prices))
 y = np.nan_to_num(y, nan=np.nanmean(y))
@@ -114,7 +114,7 @@ Adjust Learning Rate:
 Experiment with different learning rates to find an optimal value. This can significantly impact the training process. You've set the learning rate to 0.001, and you can adjust it based on trial and error.
 python
 Copy code
-# Recreate optimizer instance with a constant learning rate
+### Recreate optimizer instance with a constant learning rate
 learning_rate = 0.001  # You can adjust this value if needed
 self.optmzr = tf.optimizers.Adam(learning_rate=learning_rate)
 Additional Hyperparameter Tuning:
@@ -125,14 +125,14 @@ Verbose Output:
 You have a verbose option in your model. If you want to see training progress details, set verbose=True when creating the SeqMLP instance.
 python
 Copy code
-# Create the custom SeqMLP instance with verbose output
+### Create the custom SeqMLP instance with verbose output
 seq_mlp = SeqMLP(input_size=2, hidden_size=[32, 32], output_size=1, actvFn='tanh', learnRate=0.001, maxItr=2000, tol=1e-2, verbose=True, reg=0.001)
 Cross-Validation:
 Consider using cross-validation to get a more robust evaluation of your model's performance across different hold-out periods.
 These suggestions aim to help you fine-tune your model and improve its generalization across various scenarios.
 
 
-# System Development Path
+## System Development Path
 
 Trading API - stock exchange clients
 
