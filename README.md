@@ -39,7 +39,7 @@ manually add the csv file to the venv if needed
 
 + Add JAX training config and methods.
 
-# Unmethodized Configs
+## Unmethodized Configs
 
 ## Config 1 
 
